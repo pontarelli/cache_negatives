@@ -8,6 +8,14 @@ This is the repository for the simulator used in the paper "When Filtering is no
 
 The simulator has been developed on Ubuntu 12.04. Other distributions or versions may need different steps.
 
+# Dependencies
+
+The simulator requires to tuse the libpcap0.8-dev packege. It can be installed with:
+
+```
+$ sudo apt-get install libpcap0.8-dev
+```
+
 # Building
 
 Run the following commands in the cache negatives directory to build the executable:
